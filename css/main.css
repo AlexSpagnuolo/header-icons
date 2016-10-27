@@ -12,6 +12,13 @@ html {
 h1 {
   font-size: 2rem;
   text-align: center;
+  margin: 0;
+  padding: .4rem 0;
+}
+
+img {
+  margin: 0;
+  padding: .4rem 0;
 }
 
 .left {
@@ -29,8 +36,12 @@ a {
   text-decoration: none;
   color: white;
   text-align: center;
-  border: 3px solid #a63f38;
+  border: 1px solid #a63f38;
   overflow: hidden;
+  background-color: #d05c2e;
+  width: 33.33%;
+  display: inline-block;
+  padding: .4rem 0;
 }
 
 a:hover {
@@ -39,21 +50,20 @@ a:hover {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .home {
   float: left;
-  width: 33.33%;
 }
 
 .cereals {
   float: none;
-  width: 33.33%;
 }
 
 .legumes {
   float: right;
-  width: 33.33%;
 }
 
 header {
