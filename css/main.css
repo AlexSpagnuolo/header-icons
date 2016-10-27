@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
   color: white;
 }
 
@@ -10,6 +10,7 @@ html {
 
 h1 {
   font-size: 2rem;
+  text-align: center;
 }
 
 .left {
