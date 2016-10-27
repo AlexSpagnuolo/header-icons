@@ -37,10 +37,9 @@ a {
   color: white;
   text-align: center;
   border: 1px solid #a63f38;
-  overflow: hidden;
   background-color: #d05c2e;
-  width: 33.33%;
-  display: inline-block;
+  width: 100%;
+  display: block;
   padding: .4rem 0;
 }
 
@@ -51,19 +50,13 @@ a:hover {
 ul {
   list-style-type: none;
   margin: 0;
+  overflow: hidden;
   padding: 0;
 }
 
-.home {
+li {
   float: left;
-}
-
-.cereals {
-  float: none;
-}
-
-.legumes {
-  float: right;
+  width: 33.33%;
 }
 
 header {
