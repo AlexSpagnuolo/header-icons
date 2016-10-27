@@ -1,7 +1,41 @@
 html {
   box-sizing: border-box;
-}
+  font-family: 'Merriweather', serif;
+  color: white;
+ }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.left {
+  float: left;
+  width: 40px;
+}
+
+.right {
+  float: right;
+  width: 40px;
+}
+
+a {
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: #a63f38;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: #d05c2e;
 }
