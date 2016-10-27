@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: Merriweather, serif;
   color: white;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -27,6 +28,9 @@ a {
   font-size: 1.125rem;
   text-decoration: none;
   color: white;
+  text-align: center;
+  border: 3px solid #a63f38;
+  overflow: hidden;
 }
 
 a:hover {
@@ -35,6 +39,21 @@ a:hover {
 
 ul {
   list-style-type: none;
+}
+
+.home {
+  float: left;
+  width: 33.33%;
+}
+
+.cereals {
+  float: none;
+  width: 33.33%;
+}
+
+.legumes {
+  float: right;
+  width: 33.33%;
 }
 
 header {
